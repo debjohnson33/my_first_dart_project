@@ -1,3 +1,6 @@
+import 'package:path/path.dart';
+import 'package:mock_data/mock_data.dart' as mock_data;
+
 void main() {
-  print("My first Dart program.");
+  print(mock_data.mockString());
 }
